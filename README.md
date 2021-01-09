@@ -32,6 +32,21 @@ Run the ROS bag reader
 ./run-bagdump.sh -i /data -o /output
 ```
 
+## [allow-public-access-amazon-bucket](https://havecamerawilltravel.com/photographer/how-allow-public-access-amazon-bucket/)
+
+Access Photos from Python, by building a list ([save list to CSV](https://www.geeksforgeeks.org/python-save-list-to-csv/))
+```python
+import os
+import pandas as pd
+list = os.listdir()
+df = pd.DataFrame(list,columns=['photo'])
+df.to_csv('photos.csv',index=False)
+```
+
+Display frames & steering angle with a streamlit app:
+
+![app.jpg](app.jpg)
+
 ## [self-driving-car-simulator](https://github.com/udacity/self-driving-car-sim)
 
 ![self-driving-sim](https://github.com/udacity/self-driving-car-sim/raw/master/sim_image.png)

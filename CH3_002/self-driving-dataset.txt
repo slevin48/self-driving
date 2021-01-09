@@ -1,0 +1,73 @@
+path:        CH03_002.bag
+version:     2.0
+duration:    3hr 40:19s (13219s)
+start:       Dec 02 2016 18:11:30.38 (1480702290.38)
+end:         Dec 02 2016 21:51:49.88 (1480715509.88)
+size:        71.6 GB
+messages:    54456557
+compression: none [90094/90094 chunks]
+types:       dataspeed_can_msgs/CanMessageStamped  [33747cb98e223cafb806d7e94cb4071f]
+             dbw_mkz_msgs/BrakeInfoReport          [fc88af128b5b3213ea25ab325a9b3bbb]
+             dbw_mkz_msgs/BrakeReport              [a306c167d365176ae6159e3c4e3f3197]
+             dbw_mkz_msgs/FuelLevelReport          [f5ec1964dbda02fda82785b8035744e4]
+             dbw_mkz_msgs/GearReport               [f33342dfeb80c29d8fe4b31e22519594]
+             dbw_mkz_msgs/Misc1Report              [9ecd16fb81815b3e46e0550feea1da2f]
+             dbw_mkz_msgs/SteeringReport           [25bf2c220d904531d8bc16ab5271325d]
+             dbw_mkz_msgs/SurroundReport           [17a8c9ed72da4f55d44d6d71483cf0e3]
+             dbw_mkz_msgs/SuspensionReport         [a2c91f746e5d8bec139c834f92ac7468]
+             dbw_mkz_msgs/ThrottleInfoReport       [8255d20d2bbc661ad39074024259c71a]
+             dbw_mkz_msgs/ThrottleReport           [a7fd7b93c8549e83c319e38a18f6dbdc]
+             dbw_mkz_msgs/TirePressureReport       [a2c91f746e5d8bec139c834f92ac7468]
+             dbw_mkz_msgs/WheelSpeedReport         [a2c91f746e5d8bec139c834f92ac7468]
+             diagnostic_msgs/DiagnosticArray       [60810da900de1dd6ddd437c3503511da]
+             dynamic_reconfigure/Config            [958f16a05573709014982821e6822580]
+             dynamic_reconfigure/ConfigDescription [757ce9d44ba8ddd801bb30bc456f946f]
+             geometry_msgs/PointStamped            [c63aecb41bfdfd6b7e1fac37c7cbe7bf]
+             geometry_msgs/TwistStamped            [98d34b0043a2093cf9d9345ab6eef12e]
+             sensor_msgs/CameraInfo                [c9a58c1b0b154e0e6da7578cb991d214]
+             sensor_msgs/CompressedImage           [8f7a12909da2c9d3332d540a0977563f]
+             sensor_msgs/FluidPressure             [804dc5cea1c5306d6a2eb80b9833befe]
+             sensor_msgs/Imu                       [6a62c6daae103f4ff57a132d6f95cec2]
+             sensor_msgs/JointState                [3066dcd76a6cfaef579bd0f34173e9fd]
+             sensor_msgs/NavSatFix                 [2d3a8cd499b9b4a0249fb98fd05cfa48]
+             sensor_msgs/PointCloud2               [1158d486dd51d683ce2f1be655c3c181]
+             sensor_msgs/TimeReference             [fded64a0265108ba86c3d38fb11c0c16]
+             std_msgs/Bool                         [8b94c1b53db61fb6aed406028ad6332a]
+             std_msgs/Float64                      [fdb28210bfa9d7c91146260178d9a584]
+             velodyne_msgs/VelodyneScan            [50804fc9533a0e579e6322c04ae70566]
+topics:      /can_bus_dbw/can_rx                                 9376489 msgs    : dataspeed_can_msgs/CanMessageStamped 
+             /center_camera/camera_info                           264230 msgs    : sensor_msgs/CameraInfo               
+             /center_camera/image_color/compressed                264230 msgs    : sensor_msgs/CompressedImage          
+             /diagnostics                                          52540 msgs    : diagnostic_msgs/DiagnosticArray       (4 connections)
+             /ecef/                                              5287720 msgs    : geometry_msgs/PointStamped           
+             /fix                                                5287720 msgs    : sensor_msgs/NavSatFix                
+             /imu/data                                           5287726 msgs    : sensor_msgs/Imu                      
+             /left_camera/camera_info                             264276 msgs    : sensor_msgs/CameraInfo               
+             /left_camera/image_color/compressed                  264276 msgs    : sensor_msgs/CompressedImage          
+             /pressure                                            660965 msgs    : sensor_msgs/FluidPressure            
+             /right_camera/camera_info                            263840 msgs    : sensor_msgs/CameraInfo               
+             /right_camera/image_color/compressed                 263840 msgs    : sensor_msgs/CompressedImage          
+             /time_reference                                    16020574 msgs    : sensor_msgs/TimeReference            
+             /vehicle/brake_info_report                           660965 msgs    : dbw_mkz_msgs/BrakeInfoReport         
+             /vehicle/brake_report                                659917 msgs    : dbw_mkz_msgs/BrakeReport             
+             /vehicle/dbw_enabled                                      1 msg     : std_msgs/Bool                        
+             /vehicle/filtered_accel                              659858 msgs    : std_msgs/Float64                     
+             /vehicle/fuel_level_report                           132671 msgs    : dbw_mkz_msgs/FuelLevelReport         
+             /vehicle/gear_report                                 263943 msgs    : dbw_mkz_msgs/GearReport              
+             /vehicle/gps/fix                                      13219 msgs    : sensor_msgs/NavSatFix                
+             /vehicle/gps/time                                     13219 msgs    : sensor_msgs/TimeReference            
+             /vehicle/gps/vel                                      13219 msgs    : geometry_msgs/TwistStamped           
+             /vehicle/imu/data_raw                               1318634 msgs    : sensor_msgs/Imu                      
+             /vehicle/joint_states                               1981787 msgs    : sensor_msgs/JointState               
+             /vehicle/misc_1_report                               263944 msgs    : dbw_mkz_msgs/Misc1Report             
+             /vehicle/sonar_cloud                                  66768 msgs    : sensor_msgs/PointCloud2              
+             /vehicle/steering_report                             659858 msgs    : dbw_mkz_msgs/SteeringReport          
+             /vehicle/surround_report                              66768 msgs    : dbw_mkz_msgs/SurroundReport          
+             /vehicle/suspension_report                           661052 msgs    : dbw_mkz_msgs/SuspensionReport        
+             /vehicle/throttle_info_report                       1321946 msgs    : dbw_mkz_msgs/ThrottleInfoReport      
+             /vehicle/throttle_report                             659914 msgs    : dbw_mkz_msgs/ThrottleReport          
+             /vehicle/tire_pressure_report                         26438 msgs    : dbw_mkz_msgs/TirePressureReport      
+             /vehicle/twist_controller/parameter_descriptions          1 msg     : dynamic_reconfigure/ConfigDescription
+             /vehicle/twist_controller/parameter_updates               1 msg     : dynamic_reconfigure/Config           
+             /vehicle/wheel_speed_report                         1321929 msgs    : dbw_mkz_msgs/WheelSpeedReport        
+             /velodyne_packets                                    132079 msgs    : velodyne_msgs/VelodyneScan
