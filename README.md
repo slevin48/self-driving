@@ -1,13 +1,17 @@
 # self-driving
 Hack self-driving [dataset](https://streamlit-self-driving.s3-us-west-2.amazonaws.com/) from Udacity & [app](https://github.com/streamlit/demo-self-driving/blob/master/streamlit_app.py) from Streamlit
 
-Just One image out of the dataset:
+Hybrid training of a self-driving car, based on both images from real driving data & simulation data:
 
-![img1.jpg](img1.jpg)
+<img src="img1.jpg" alt="drawing" height="160"/>
+<img src="img2.jpg" alt="drawing" height="160"/>
+
+## Real driving data
 
 [Youtube - Neural Network driving a car](https://www.youtube.com/watch?v=NJU9ULQUwng&feature=emb_logo&ab_channel=IProgrammerTV)
 
-## Dataset
+
+### Dataset
 
 First Download the [Driving Datasets](https://github.com/udacity/self-driving-car/tree/master/datasets) – Over 10 hours of driving data (LIDAR, camera frames and more)
 
@@ -21,7 +25,7 @@ Untar
 tar -xf Ch2_001.tar.gz
 ```
 
-## [udacity-driving-reader](https://github.com/rwightman/udacity-driving-reader)
+### [udacity-driving-reader](https://github.com/rwightman/udacity-driving-reader)
 
 Build the docker
 ```
@@ -32,7 +36,7 @@ Run the ROS bag reader
 ./run-bagdump.sh -i /data -o /output
 ```
 
-## Real driving data
+### S3 hosting
 
 Host the real driving dataset on AWS S3 bucket, and [allow public access to the bucket](https://havecamerawilltravel.com/photographer/how-allow-public-access-amazon-bucket/)  
 
@@ -57,8 +61,6 @@ streamlit run car_app.py
 
 [self-driving-car-simulator](https://github.com/udacity/self-driving-car-sim)
 
-![self-driving-sim](https://github.com/udacity/self-driving-car-sim/raw/master/sim_image.png)
-
 ![sim_app.jpg](sim_app.jpg)
 
 
@@ -75,3 +77,6 @@ Resources:
 * https://github.com/llSourcell/How_to_simulate_a_self_driving_car
 * https://www.youtube.com/watch?v=EaY5QiZwSP4&ab_channel=SirajRaval
 * https://developer.nvidia.com/blog/deep-learning-self-driving-cars/
+
+
+![self-driving-sim](https://github.com/udacity/self-driving-car-sim/raw/master/sim_image.png)
