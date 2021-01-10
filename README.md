@@ -32,7 +32,9 @@ Run the ROS bag reader
 ./run-bagdump.sh -i /data -o /output
 ```
 
-## [allow-public-access-amazon-bucket](https://havecamerawilltravel.com/photographer/how-allow-public-access-amazon-bucket/)
+## Real driving data
+
+Host the real driving dataset on AWS S3 bucket, and [allow public access to the bucket](https://havecamerawilltravel.com/photographer/how-allow-public-access-amazon-bucket/)  
 
 Access Photos from Python, by building a list ([save list to CSV](https://www.geeksforgeeks.org/python-save-list-to-csv/))
 ```python
@@ -45,11 +47,26 @@ df.to_csv('photos.csv',index=False)
 
 Display frames & steering angle with a streamlit app:
 
-![app.jpg](app.jpg)
+![car_app.jpg](car_app.jpg)
 
-## [self-driving-car-simulator](https://github.com/udacity/self-driving-car-sim)
+```
+streamlit run car_app.py
+```
+
+## Simulated driving data
+
+[self-driving-car-simulator](https://github.com/udacity/self-driving-car-sim)
 
 ![self-driving-sim](https://github.com/udacity/self-driving-car-sim/raw/master/sim_image.png)
+
+![sim_app.jpg](sim_app.jpg)
+
+
+```
+streamlit run car_app.py
+```
+
+(Turn on wide mode in settings in the upper right of the app)
 
 
 Resources:
