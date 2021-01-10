@@ -3,7 +3,7 @@ Hack self-driving [dataset](https://streamlit-self-driving.s3-us-west-2.amazonaw
 
 Hybrid training of a self-driving car, based on both images from real driving data & simulation data:
 
-<img src="img1.jpg" alt="drawing" height="320"/>
+<img src="img1.jpg" alt="drawing" width="320"/>
 <img src="img2.jpg" alt="drawing" width="320"/>
 
 ## Real driving data
