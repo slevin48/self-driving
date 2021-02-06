@@ -97,7 +97,34 @@ Available Topics:
 /velodyne_packets                                    132079 msgs    : velodyne_msgs/VelodyneScan
 ```
 
-Pressure
+**GPS**
+```matlab
+bagGps = select(bag, 'Topic', '/vehicle/gps/fix');
+```
+![GPS](CH3_002/gps.png)
+
+**Steering Angle**
+```matlab
+bagSteering = select(bag, 'Topic', '/vehicle/steering_report');
+```
+```matlab
+bagSteering.AvailableTopics
+```
+![bagSteering_AvailableTopics](CH3_002/bagSteering_AvailableTopics.png)
+
+```matlab
+msgs = readMessages(bagSteering,'DataFormat','struct');
+steering_angle = cellfun(@(m) m.SteeringWheelAngle,msgs);
+Sec = cellfun(@(m) m.Header.Stamp.Sec,msgs);
+Nsec = cellfun(@(m) m.Header.Stamp.Nsec,msgs);
+time = datetime(Sec,"ConvertFrom","epochtime","Format","HH:mm:ss");
+plot(time,steering_angle)
+title("Steering Wheel Angle")
+```
+
+![Steering](CH3_002/steering.png)
+
+**Pressure**
 ```matlab
 >> bagpressure = select(bag, 'Topic', '/pressure')
 bagpressure = 
