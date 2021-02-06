@@ -124,6 +124,10 @@ title("Steering Wheel Angle")
 
 ![Steering](CH3_002/steering.png)
 
+**Retime:** sub-sample to one point per second to sync with GPS
+
+![Sub-steering](CH3_002/retime-timetable.png)
+
 **Pressure**
 ```matlab
 >> bagpressure = select(bag, 'Topic', '/pressure')
@@ -249,6 +253,8 @@ streamlit run car_app.py
 
 (Turn on wide mode in settings in the upper right of the app)
 
+
+<iframe src="self-driving-map.html">
 
 Resources:
 * https://www.addictivetips.com/ubuntu-linux-tips/download-torrents-from-the-command-line-linux/
