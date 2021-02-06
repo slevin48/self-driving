@@ -18,6 +18,7 @@ First Download the [Driving Datasets](https://github.com/udacity/self-driving-ca
 ```
 aria2c Ch2_001.tar.gz-692ee7e0c63fb2212bfe4a62a39ce71ee9b16fb3.torrent
 ```
+Read [How to download torrents from the command-line on Linux](https://www.addictivetips.com/ubuntu-linux-tips/download-torrents-from-the-command-line-linux/)
 
 Untar
 
@@ -253,12 +254,13 @@ streamlit run car_app.py
 
 (Turn on wide mode in settings in the upper right of the app)
 
+Go further:
+* https://github.com/tawnkramer/sdsandbox
 
 <iframe src="self-driving-map.html">
 
 Resources:
-* https://www.addictivetips.com/ubuntu-linux-tips/download-torrents-from-the-command-line-linux/
-* https://github.com/tawnkramer/sdsandbox
+* https://github.com/naokishibuya/car-behavioral-cloning
 * https://github.com/llSourcell/How_to_simulate_a_self_driving_car
 * https://www.youtube.com/watch?v=EaY5QiZwSP4&ab_channel=SirajRaval
 * https://developer.nvidia.com/blog/deep-learning-self-driving-cars/
