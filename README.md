@@ -1,10 +1,14 @@
 # self-driving
-Hack self-driving [dataset](https://streamlit-self-driving.s3-us-west-2.amazonaws.com/) from Udacity & [app](https://github.com/streamlit/demo-self-driving/blob/master/streamlit_app.py) from Streamlit
 
-Hybrid training of a self-driving car, based on both images from real driving data & simulation data:
+This project starts with [223GB of Driving Data](https://medium.com/udacity/open-sourcing-223gb-of-mountain-view-driving-data-f6b5593fbfa5) open sourced by Udacity.
+The originial idea was to hack this driving [dataset](https://github.com/udacity/self-driving-car), the associated [app](https://github.com/streamlit/demo-self-driving/blob/master/streamlit_app.py) and [data hosted on AWS](https://streamlit-self-driving.s3-us-west-2.amazonaws.com/) by Streamlit
 
-<img src="img1.jpg" alt="drawing" width="320"/>
-<img src="img2.jpg" alt="drawing" width="320"/>
+Hybrid training of a self-driving car, based on both images from:
+
+| real driving data                                | simulation data                                  | 
+| -------------------------------------------------|:------------------------------------------------:|
+| <img src="img1.jpg" alt="drawing" height="320"/> | <img src="img2.jpg" alt="drawing" height="320"/> |
+
 
 ## Real driving data
 
