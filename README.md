@@ -10,10 +10,15 @@ Hybrid training of a self-driving car, based on both images from:
 | <img src="img1.jpg" alt="drawing" height="320"/> | <img src="img2.jpg" alt="drawing" height="320"/> |
 
 
+For more project on autonomous driving simulation:
+* https://github.com/slevin48/gta
+* https://github.com/slevin48/carla
+
 ## Real driving data
 
 [Youtube - Neural Network driving a car](https://www.youtube.com/watch?v=NJU9ULQUwng&feature=emb_logo&ab_channel=IProgrammerTV)
 
+![nvidia-car-hardware-setup](https://www.i-programmer.info/images/stories/News/2016/April/B/nvidacar1.jpg)
 
 ### Dataset
 
@@ -258,11 +263,15 @@ streamlit run car_app.py
 
 (Turn on wide mode in settings in the upper right of the app)
 
-Go further:
+## KITTI: precursor self-driving dataset
+
+From the Karlsruhe Institute of Technology:
+* [**Paper** - Vision meets Robotics: The KITTI Dataset](https://www.mrt.kit.edu/z/publ/download/2013/GeigerAl2013IJRR.pdf)
+* [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/)
+
+
+## Resources:
 * https://github.com/tawnkramer/sdsandbox
-
-
-Resources:
 * https://github.com/naokishibuya/car-behavioral-cloning
 * https://github.com/llSourcell/How_to_simulate_a_self_driving_car
 * https://github.com/ManajitPal/DeepLearningForSelfDrivingCars
