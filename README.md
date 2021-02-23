@@ -13,6 +13,7 @@ Hybrid training of a self-driving car, based on both images from:
 For more project on autonomous driving simulation:
 * https://github.com/slevin48/gta
 * https://github.com/slevin48/carla
+* https://github.com/slevin48/donkeycar
 
 ## Real driving data
 
