@@ -280,6 +280,6 @@ From the Karlsruhe Institute of Technology:
 * https://github.com/ManajitPal/DeepLearningForSelfDrivingCars
 * https://www.youtube.com/watch?v=EaY5QiZwSP4&ab_channel=SirajRaval
 * https://developer.nvidia.com/blog/deep-learning-self-driving-cars/
-
+* https://github.com/SullyChen/Autopilot-TensorFlow
 
 ![self-driving-sim](https://github.com/udacity/self-driving-car-sim/raw/master/sim_image.png)
