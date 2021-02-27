@@ -21,6 +21,8 @@ For more project on autonomous driving simulation:
 
 ![nvidia-car-hardware-setup](https://www.i-programmer.info/images/stories/News/2016/April/B/nvidacar1.jpg)
 
+[NVIDIA paper: End to End Learning for Self-Driving Cars](https://arxiv.org/pdf/1604.07316.pdf)
+
 ### Dataset
 
 First Download the [Driving Datasets](https://github.com/udacity/self-driving-car/tree/master/datasets) – Over 10 hours of driving data (LIDAR, camera frames and more)
