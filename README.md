@@ -1,4 +1,6 @@
-# self-driving
+# self-driving 🚗
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/slevin48/self-driving)
 
 This project starts with [223GB of Driving Data](https://medium.com/udacity/open-sourcing-223gb-of-mountain-view-driving-data-f6b5593fbfa5) open sourced by Udacity.
 The originial idea was to hack this driving [dataset](https://github.com/udacity/self-driving-car), the associated [app](https://github.com/streamlit/demo-self-driving/blob/master/streamlit_app.py) and [data hosted on AWS](https://streamlit-self-driving.s3-us-west-2.amazonaws.com/) by Streamlit
