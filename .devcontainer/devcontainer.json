@@ -12,12 +12,12 @@
 	"forwardPorts": [8501],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user -r requirements.txt && apt-get install -y libgl1-mesa-glx",
+	"postCreateCommand": "pip3 install --user -r requirements.txt && sudo apt-get update && sudo apt-get install -y libgl1-mesa-glx",
 
 	// Use 'postAttachCommand' to run commands after a tool has attached to the container.
 	// Start the app.
 	"postAttachCommand": {
-		"server": "streamlit run streamlit_app.py --server.enableCORS false --server.enableXsrfProtection false"
+		"server": "streamlit run car_app.py --server.enableCORS false --server.enableXsrfProtection false"
 	},
 
 	"portsAttributes": {
